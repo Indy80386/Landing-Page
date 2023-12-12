@@ -2,13 +2,8 @@ body {
     font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
     display: flex; 
-    /* flex-direction: column; */
     margin: 0;
   }
-
-  /*  * {
-      border: 2px solid red;
-    }   */
 
 a {
     text-decoration: none;
@@ -20,7 +15,6 @@ ul {
      padding: 0;
     }
 
-
 .flex-grid {
     display: flex;
 }
@@ -30,17 +24,14 @@ ul {
 }
 
 .header {
-    /* max-height:  27%; */
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
 }    
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-      
+    background-color: #1F2937; 
 }
 
 .header-logo {
@@ -70,7 +61,6 @@ ul {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-      
 }
 
 .name-slogan {
@@ -81,11 +71,9 @@ ul {
 }
 
 .comp-name {
-    /* display:flex; */
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    
 }
 
 
@@ -93,7 +81,6 @@ ul {
     color: #E5E7EB;
     font-size: 30px;
     font-style: italic;
-
 }
 
 .sign-up {
@@ -115,23 +102,19 @@ ul {
     margin-top: 0;
     margin-right: 80px;
     margin-bottom: 20px;
-
 }
 
 .pholder-image img {
     border-radius: 15px;
 }
-/* End of header */
 
+/* End of header */
 
 /*  start of section two */
 .section-two {
-    /* max-height: 27%; */
     display: flex;
     flex-direction: column;
-    /* flex-grow: 1; */
     background-color: #FFFFFF;
-    /* border: 2px solid red; */
 }
 
 .random-info {
@@ -147,7 +130,6 @@ ul {
 .img-stext {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -158,15 +140,12 @@ ul {
     margin-bottom: 0;
     gap: 40px;
     justify-content: center;
-
 }
 
 .imgw-subtext {
-    
     color: black;
     margin-left: 15px;
     font-size: 20px;
-
 }
 
 .img-text-box {
@@ -187,7 +166,6 @@ ul {
 .img-text-box {
     color: black;
     font-size: 20px;
-    
 }
 
 .imgbox-text {
@@ -195,21 +173,16 @@ ul {
     font-size: 20px;
     font-weight: bold;
     margin-top: 0;
-
 }
 
 /* start of section three */
 
 .section-three {
-    /* height: 22%; */
     display: flex;
     flex-direction: column;
     font-size: 25px;
     align-content: center;
-    
-    /* flex-grow: 1; */
     background-color: #E5E7EB;
-    /* border: 2px solid rgb(20, 233, 34); */
 }
 
 .section-three .sect-three-text {
@@ -220,8 +193,6 @@ ul {
     width: 60%;
     margin-left: 25%;
     margin-bottom: 0;
-    
-
 }
 
 .sect-three-sig {
@@ -233,22 +204,16 @@ ul {
     margin-top: 0;
     justify-content: right;
     margin-right: 20%;
-    
 }
 
 /* start of section four */
 .section-four {
-    /* height: 24%; */
     height: 355px;
     display: flex;
     flex-direction: row;
-    /* flex-grow: 1; */
     background-color: #FFFFFF;
-    /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .sect-four-box {
@@ -266,7 +231,6 @@ ul {
     flex-direction: column;
     margin-left: 7%;
     justify-content: center;
-
 }
 
 .top-text {
@@ -280,19 +244,13 @@ ul {
     color: white;
     font-size: 20px;
     margin-top: 0;
-
 }
 
 .sect-four-box .sect-four-box-button {
     display: flex;
     flex-direction: column;
-    /* margin-left: 7%; */
     justify-content: center;
-    /* align-self: center; */
-    /* margin-left: 20px; */
     margin-right: 7%;
-
-    /* border: 2px solid red; */
 }
 
 .sect-four-box-button .sign-up {
@@ -307,20 +265,13 @@ ul {
     padding-bottom: 10px;
 }
 
-
-
 /* start of section five */
 .section-five {
-    /* height: 25%; */
     display: flex;
     flex-direction: column;
-    /* flex-grow: 1; */
     background-color: black;
     justify-content: center;
     align-items: center;
-
-    /* border: 2px solid rgb(20, 233, 34); */
-
 }
 
 .section-five-text {
@@ -330,5 +281,4 @@ ul {
     width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
